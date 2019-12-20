@@ -1,0 +1,8 @@
+import logging
+
+CONFIG_LOG_LEVEL = logging.INFO
+CONFIG_LOG_FORMAT = '[%(asctime)s] [%(levelname)s] - %(message)s'
+
+CONFIG_CONNECT_HOST = '127.0.0.1'
+CONFIG_CONNECT_PORT = 4002
+CONFIG_CONNECT_MAX_CONNECTION_POOL = 10
