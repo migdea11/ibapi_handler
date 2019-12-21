@@ -6,10 +6,10 @@ from typing import Dict, List
 
 from ibapi.client import EClient
 
-import lib.handler_config as config
-from lib.ib_wrapper import IBWrapper
-from lib.response.generic_response import GenericResponse
-from lib.runner import Runner
+import handler.handler_config as config
+from handler.ib_wrapper import IBWrapper
+from response.generic_response import GenericResponse
+from runner.runner import Runner
 
 LOG = logging.getLogger(__name__)
 LOG.setLevel(config.CONFIG_LOG_LEVEL)

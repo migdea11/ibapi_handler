@@ -5,12 +5,12 @@ from typing import TYPE_CHECKING
 
 from ibapi import contract, wrapper
 
-import lib.handler_config as config
-from lib.response.contract_response import ContractResponse
-from lib.response.error_response import ErrorResponse
+import handler.handler_config as config
+from response.contract_response import ContractResponse
+from response.error_response import ErrorResponse
 
 if TYPE_CHECKING:
-    from lib.request_handler import RequestHandler
+    from handler.request_handler import RequestHandler
 
 LOG = logging.getLogger(__name__)
 LOG.setLevel(config.CONFIG_LOG_LEVEL)

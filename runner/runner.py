@@ -8,10 +8,10 @@ from ibapi.client import EClient
 from ibapi.common import TagValueList
 from ibapi.contract import Contract
 
-import lib.handler_config as config
+import handler.handler_config as config
 
 if TYPE_CHECKING:
-    from lib.request_handler import RequestHandler
+    from handler.request_handler import RequestHandler
 
 LOG = logging.getLogger(__name__)
 LOG.setLevel(config.CONFIG_LOG_LEVEL)

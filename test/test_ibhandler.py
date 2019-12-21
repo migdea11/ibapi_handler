@@ -2,9 +2,9 @@ import logging
 
 from ibapi.contract import Contract
 
-import lib.contract_utils as contract_utils
-import lib.handler_config as config
-from lib.request_handler import RequestHandler
+import common.contract_utils as contract_utils
+import handler.handler_config as config
+from handler.request_handler import RequestHandler
 
 logging.basicConfig(format=config.CONFIG_LOG_FORMAT, level=config.CONFIG_LOG_LEVEL)
 LOG = logging.getLogger(__name__)

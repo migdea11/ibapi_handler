@@ -1,4 +1,4 @@
-from lib.response.generic_response import GenericResponse
+from response.generic_response import GenericResponse
 
 
 class ErrorResponse(GenericResponse):
